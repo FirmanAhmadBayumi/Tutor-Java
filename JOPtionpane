@@ -1,0 +1,8 @@
+import javax.swing.JOptionpane
+
+public class JOptionPane{
+  public static void main[String[] args{
+    String nama = JOptionpane.showInputDialog("Silahkan tulis nama lengkap anda");
+    JOptionPane.showMessageDialog(null, "Hello ", + nama);
+  }
+}
