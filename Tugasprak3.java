@@ -6,21 +6,21 @@ public class Tugasprak3 {
     
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int nilai;
-        int limNilai;
+        int value;
+        int limValue;
         String hurufMutu;
         System.out.println("Input batas jumlah nilai yang akan dimasukkan : ");
-        limNilai = input.nextInt();
+        limValue = input.nextInt();
         
         for(int i = 1; i <= limNilai; i++){
             System.out.println("Masukkan nilai ke-" + i +" : ");
-            nilai = input.nextInt();
+            value = input.nextInt();
             
-            if(nilai%10 == 0){
+            if(value%10 == 0){
                 continue;
             }
             
-            if(nilai > 100){
+            if(value > 100){
                 System.out.println("Nilai yang anda masukkan tidak sesuai!!!");
             }
             
