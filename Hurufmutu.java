@@ -1,8 +1,8 @@
-package tugasprak3;
+package hurufmutu;
 
 import java.util.Scanner;
 
-public class Tugasprak3 {
+public class Hurufmutu {
     
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class Tugasprak3 {
         System.out.println("Input batas jumlah nilai yang akan dimasukkan : ");
         limValue = input.nextInt();
         
-        for(int i = 1; i <= limNilai; i++){
+        for(int i = 1; i <= limValue; i++){
             System.out.println("Masukkan nilai ke-" + i +" : ");
             value = input.nextInt();
             
@@ -24,17 +24,17 @@ public class Tugasprak3 {
                 System.out.println("Nilai yang anda masukkan tidak sesuai!!!");
             }
             
-            if(nilai >= 76) {
+            if(value >= 76) {
                 hurufMutu = "A";
-            }else if(nilai >= 71){
+            }else if(value >= 71){
                 hurufMutu = "B+";
-            }else if(nilai >= 66){
+            }else if(value >= 66){
                 hurufMutu = "B";
-            }else if(nilai >= 61){
+            }else if(value >= 61){
                 hurufMutu = "C+";
-            }else if(nilai >= 56){
+            }else if(value >= 56){
                 hurufMutu = "C";
-            }else if(nilai >= 51){
+            }else if(value >= 51){
                 hurufMutu = "D";
             }else{
                 hurufMutu = "E";
@@ -42,7 +42,7 @@ public class Tugasprak3 {
             
             switch(hurufMutu){
                 case "A" :
-                    System.out.println("Huruf mutu yang didapatkan " + hurufMutu + "(Lulus)");
+                    System.out.println("Huruf mutu yang didapatkan " + hurufMutu + " (Lulus)");
                     break;
                     
                 case "B+" :
