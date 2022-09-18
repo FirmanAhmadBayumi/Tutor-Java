@@ -15,12 +15,12 @@ public class Biodata {
         String nama = JOptionPane.showInputDialog("Masukkan nama anda");
         JOptionPane.showMessageDialog(null, "Halo " + nama);
         
-        String alamat = JOptionPane.showInputDialog(null, "Masukkan alamat anda ");
+        String alamat = JOptionPane.showInputDialog(null, "Masukkan alamat anda");
         JOptionPane.showMessageDialog(null, "Anda tinggal di " + alamat);
         
         String tahunAngkatan = JOptionPane.showInputDialog("Masukkan Tahun angkatan anda");
         JOptionPane.showMessageDialog(null, "Tahun angkatan " + tahunAngkatan);
         
-        String jurusan = JOptionPane.showInputDialog("Masukkan Tahun angkatan anda");
+        String jurusan = JOptionPane.showInputDialog("Masukkan Jurusan Anda");
     }
 }
