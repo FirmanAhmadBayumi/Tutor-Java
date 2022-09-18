@@ -20,5 +20,7 @@ public class Biodata {
         
         String tahunAngkatan = JOptionPane.showInputDialog("Masukkan Tahun angkatan anda");
         JOptionPane.showMessageDialog(null, "Tahun angkatan " + tahunAngkatan);
+        
+        String jurusan = JOptionPane.showInputDialog("Masukkan Tahun angkatan anda");
     }
 }
