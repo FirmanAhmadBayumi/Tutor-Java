@@ -18,6 +18,9 @@ public class Biodata {
         String alamat = JOptionPane.showInputDialog(null, "Masukkan alamat anda");
         JOptionPane.showMessageDialog(null, "Anda tinggal di " + alamat);
         
+        String npm = JOptionPane.showInputDialog(null, "Masukkan NPM anda");
+        
+        
         String tahunAngkatan = JOptionPane.showInputDialog("Masukkan Tahun angkatan anda");
         JOptionPane.showMessageDialog(null, "Tahun angkatan " + tahunAngkatan);
         
